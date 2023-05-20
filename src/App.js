@@ -4,6 +4,7 @@ import axios from 'axios';import './App.css';
 
 function App() {
   const[loading,setloading] = useState(false);
+  console.log(loading)
   const[data,setData] = useState([]);
   useEffect(()=>{
     setloading(true)
