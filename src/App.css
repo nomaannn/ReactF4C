@@ -1,0 +1,17 @@
+.main{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.table th{
+  padding: 20px;
+  background-color: blue;
+  color: white;
+}
+.table td{
+  padding: 10px;
+}
